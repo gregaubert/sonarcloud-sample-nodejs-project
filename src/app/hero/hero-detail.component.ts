@@ -33,6 +33,8 @@ export class HeroDetailComponent implements OnInit {
       return;
     }
 
+
+    const random2 =  Math.random();
     const random =  Math.random();
     const match = /(\d+)\.(\d+)/.exec('test-test');
 
