@@ -7,3 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent { }
 let test = {};
+let test2 = {};
+
