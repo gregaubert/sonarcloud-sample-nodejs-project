@@ -6,4 +6,4 @@ This project uses the [SonarCloud Pipe for Bitbucket Pipelines](https://bitbucke
 
 See [this PR](https://bitbucket.org/sonarsource/sample-nodejs-project/pull-requests/2) as example.
 
-Autoscan restart
+Autoscan restart 2
