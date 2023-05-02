@@ -1,10 +1,10 @@
 /* tslint:disable:member-ordering */
 import { Component, Input, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router }   from '@angular/router';
 import 'rxjs/add/operator/map';
-import { Hero } from '../model/hero';
-import { HeroDetailService } from './hero-detail.service';
 
+import { Hero }              from '../model/hero';
+import { HeroDetailService } from './hero-detail.service';
 
 @Component({
   selector:    'app-hero-detail',
@@ -32,11 +32,6 @@ export class HeroDetailComponent implements OnInit {
       this.hero = new Hero();
       return;
     }
-
-
-    const random2 =  Math.random();
-    const random =  Math.random();
-    const match = /(\d+)\.(\d+)/.exec('test-test');
 
     this.heroDetailService.getHero(id).then(hero => {
       if (hero) {
