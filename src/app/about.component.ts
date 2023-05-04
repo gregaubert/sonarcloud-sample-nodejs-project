@@ -6,3 +6,6 @@ import { Component } from '@angular/core';
   <p>All about this sample</p>`
 })
 export class AboutComponent { }
+let test = {};
+let test2 = {};
+
